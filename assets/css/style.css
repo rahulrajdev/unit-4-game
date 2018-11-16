@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Users/rahulraj/Desktop/classHomework/unit-4-game/assets/images/background.jpg");
+    background-image: url("../images/background.jpg");
     color: white;
     font-weight: bold;
 }
