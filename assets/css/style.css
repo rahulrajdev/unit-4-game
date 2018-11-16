@@ -1,0 +1,102 @@
+body {
+    background-image: url("/Users/rahulraj/Desktop/classHomework/unit-4-game/assets/images/background.jpg");
+    color: white;
+    font-weight: bold;
+}
+
+#instructions { 
+    float: left;
+    font-size: 11px;
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.char-image {
+    border: 10px solid green;
+    float: left;
+}
+
+.enemy-image {
+    border: 10px solid red;
+    float: left;
+}
+
+.fight-image {
+    border: 10px solid black;
+    float: left;
+}
+
+#chooseyouropponent {
+    clear: both;
+}
+
+#fightyouropponent {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+#attack {
+    clear: both;
+}
+
+#pointsupdating {
+    clear: both;
+}
+
+#restartgame {
+    clear: both;
+    margin-top: 10px;
+}
+
+#hpvalues {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#harryhp {
+    float: left;
+    margin-right: 8px;
+    color: goldenrod
+}
+
+#voldemorthp {
+    float: left;
+    margin-right: 8px;
+    color: green
+}
+
+#mcgonagallhp {
+    float: left;
+    margin-right: 8px;
+    color: red;
+}
+
+#snapehp {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+

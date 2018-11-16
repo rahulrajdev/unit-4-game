@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Harry Potter RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-2" id="instructions">
+                <h1>Harry Potter RPG</h1>
+                <h2>Welcome to the Quad-Wizard Tournament!</h2>
+                <p>1) Select your character</p> 
+                <p>2) Select your first opponent</p>
+                <p>3) Click ATTACK to fight your opponent </p>
+                <p>If you defeat them, choose your next opponent. Defeat all three opponenets to win the Quad-Wizard Cup!</p> 
+                <p>HINT: Pick your battles carefully ;)</p> 
+                <p>Press START to begin!</p>
+                <button type="button" class="btn btn-success" id="startbutton">START</button>    
+            </div>
+            
+            <div class="col-5">
+                    <div id="chooseyourcharacter">
+                        Choose Your Character
+                        <div id="harrypotterchar">
+                            <img class="char-image" src="assets/images/harrypotter.jpg" alt="harry potter avatar">
+                        </div>
+                        <div id="voldemortchar">
+                            <img class="char-image" src="assets/images/voldemort.jpg" alt="voldemort avatar">
+                        </div>
+                        <div id="mcgonagallchar">
+                            <img class="char-image" src="assets/images/mcgonagall.jpg" alt="mcgonagall avatar">
+                        </div>
+                        <div id="snapechar">
+                            <img class="char-image" src="assets/images/snape.jpg" alt"snape avatar">
+                        </div>
+                    </div>
+                        
+                    <div id="chooseyouropponent">
+                        Choose Your Opponent
+                        <div id="harrypotterenemy">
+                            <img class="enemy-image" src="assets/images/harrypotter.jpg" alt="harry potter avatar">
+                        </div>
+                        <div id="voldemortenemy">
+                            <img class="enemy-image" src="assets/images/voldemort.jpg" alt="voldemort avatar">
+                        </div>
+                        <div id="mcgonagallenemy">
+                            <img class="enemy-image" src="assets/images/mcgonagall.jpg" alt="mcgonagall avatar">
+                        </div>
+                        <div id="snapeenemy">
+                            <img class="enemy-image" src="assets/images/snape.jpg" alt"snape avatar">
+                        </div>    
+                    </div>
+                        
+                    <div id="fightyouropponent">
+                        Fight Your Opponent
+                        <div id="harrypotteropp">
+                            <img class="fight-image" src="assets/images/harrypotter.jpg" alt="harry potter avatar">
+                        </div>
+                        <div id="voldemortopp">
+                            <img class="fight-image" src="assets/images/voldemort.jpg" alt="voldemort avatar">
+                        </div>
+                        <div id="mcgonagallopp">
+                            <img class="fight-image" src="assets/images/mcgonagall.jpg" alt="mcgonagall avatar">
+                        </div>
+                        <div id="snapeopp">
+                            <img class="fight-image" src="assets/images/snape.jpg" alt"snape avatar">
+                        </div>
+                    </div>
+                        
+                    <div id="attack">
+                        <button type="button" class="btn btn-primary" id="attackbutton">ATTACK</button>
+                    </div>
+            </div>
+
+            <div class="col-5">
+                
+                <div id="pointsupdating">
+                    <div id="hpvalues">
+                        <div id="harryhp">Harry: 200 </div>
+                        <div id="voldemorthp">Voldemort: 190 </div>
+                        <div id="mcgonagallhp">Mcgonagall: 185</div>
+                        <div id="snapehp">Snape: 195 </div>
+                    </div>
+                    <hr>
+                        <div id="charAttackOnEnemyUpdate"></div>
+                        <div id="enemyAttackOnCharUpdate"></div>
+                        <div id="winOrLoseUpdate"></div>
+                        <div id="defeatEnemy"></div>
+                </div>
+
+                        
+                <div id="restartgame">
+                    <button type="button" class="btn btn-danger" id="restartbutton">RESTART</button>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>   
+</body>
+</html>
